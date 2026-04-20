@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+ 
+/* Menu Principal */
+.menu {
+   list-style: none; /*remover os marcadores da lista*/
+   margin: 0; /*remover a margem externa do elemento ul*/
+   padding: 0; /*remover a margem interna (padding) do elemento ul*/
+   background-color: darkgreen;
+   display: flex;
+   flex-direction: row;
+}
+ 
+/*Links*/
+.menu li a{
+    color: white; /*trocar cor do texto*/
+    text-decoration: none; /*remover linha do link*/
+    padding: 15px;
+}  
+ 
+/*HOVER - passar o mouse sobre o link*/
+.menu li a:hover{
+    background-color: #555;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    background: darkcyan;
+    color: white;
+    margin-top: auto;
+}
+
+.hero{
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.layout{
+    display: flex;
+    min-height: 300px;
+}
+.sidebar{
+    width: 200px;
+    background: gray;
+    padding: 15px;
+}
+.content{
+    padding: 20px;
+    background: #f5f5f5;
+    flex: 1;
+}
+.cards{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.card{
+    background: lightblue;
+    padding: 20px;
+    text-align: center;
+    flex: 100 100 150px;
+    flex-direction: column;
+}
+.destaque{
+    flex: 2 1 300px;
+}
+.sobre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+}
+.cardh{
+    display: flex;
+    flex-direction: column;
+    background: lightgreen;
+    margin: 5px;
+    padding: 30px;
+    text-align: center;
+}
+img{
+    margin: 5px;
+}
+.cardr{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(0, 96, 96);
+}
+.destinos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+}
+.cardm{
+    display: flex;
+    flex-direction: column;
+    background: lightgreen;
+    width: 70%;
+    margin: 5px;
+    padding: 30px;
+    text-align: center;
+}
